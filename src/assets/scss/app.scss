@@ -1,0 +1,65 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+
+/* GTE */
+@font-face {
+    font-family: GteBold;
+    src: url(https://mmedia.ozone.ru/graphics/fonts/190221/gte-esti-pro-display-bold.otf);
+}
+
+@font-face {
+    font-family: GteLight;
+    src: url(https://mmedia.ozone.ru/graphics/fonts/190221/gte-esti-pro-display-light.otf);
+}
+
+@font-face {
+    font-family: GteRegular;
+    src: url(https://mmedia.ozone.ru/graphics/fonts/190221/gte-esti-pro-display-regular.otf);
+}
+
+.section {
+    &__header {
+        text-align: center;
+    }
+
+    &__description {
+        text-align: center;
+        line-height: 24px;
+    }
+
+    &__description2 {
+        text-align: center;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+    }
+
+    &__link {
+        text-decoration: underline;
+    }
+}
+
+.block {
+    &__header {
+        margin-bottom: 7px;
+    }
+
+    &__description {
+        line-height: 22px;
+        letter-spacing: 0.4px;
+    }
+
+    &__link {
+        line-height: 20px;
+    }
+
+    &__img1 {
+        padding-left: 20px;
+    }
+
+    &__img2 {
+        padding-left: 40px;
+    }
+}
